@@ -1,0 +1,9 @@
+        {
+          "version": 2,
+          "rewrites": [
+            {
+              "source": "/flux/:path*",
+              "destination": "https://api.bfl.ai/:path*"
+            }
+          ]
+        }
